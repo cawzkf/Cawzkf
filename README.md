@@ -139,9 +139,6 @@ Cronômetro desenvolvido no Android Studio com interface minimalista e funcional
 
 
 ---
-
-## Filosofia de Trabalho
-
 ```python
 def minha_abordagem():
     while True:
