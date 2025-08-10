@@ -86,7 +86,7 @@ Sistema IoT para monitoramento em tempo real do consumo energético de dispositi
 
 Cronômetro desenvolvido no Android Studio com interface minimalista e funcional para contagem de tempo.
 
-- **Tecnologias:** Android Studio, Java
+- **Tecnologias:** Android Studio, Kotlin
 - **Funcionalidades:** Iniciar/parar contagem, exibição em horas/minutos/segundos
 - **Técnicas:** Classe Handler para atualizações em tempo real no TextView
 
