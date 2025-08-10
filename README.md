@@ -32,7 +32,7 @@ Sou estudante de **Engenharia da Computação** na Faculdade Matias Machline, ap
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Hardware & Sistemas Embarcados
-![ESP8266](https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![IoT](https://img.shields.io/badge/Internet_of_Things-FF69B4?style=for-the-badge&logo=iot&logoColor=white)
 
