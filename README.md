@@ -160,6 +160,4 @@ Sempre interessada em discutir **desenvolvimento mobile**, **IoT**, **automaçã
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Conectar_no_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camila-felix-dos-reis)
-
 </div>
