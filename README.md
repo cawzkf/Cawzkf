@@ -2,11 +2,11 @@
 
 <div align="center">
 
-**Estudante de Engenharia da Computação | Kotlin • Python • SQL | Backend & IoT | Sistemas Embarcados**
+**Computer Engineering Student | IoT • Embedded • Cloud • Android | Junior Software Engineer**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/camila-felix-dos-reis)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu.email@domain.com)
-[![Location](https://img.shields.io/badge/Localização-Manaus,%20AM-pink?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com)
+[![Location](https://img.shields.io/badge/Location-Manaus,%20AM-pink?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=cawzkf&color=ff69b4&style=for-the-badge)
 
@@ -14,85 +14,123 @@
 
 ---
 
-## Sobre Mim
+## About Me
 
-Sou estudante de **Engenharia da Computação** na Faculdade Matias Machline, apaixonada por **IoT**, **sistemas embarcados** e **desenvolvimento de software**. Tenho experiência em automação de relatórios SQL, análise de dados e criação de aplicações completas, sempre buscando integrar hardware e software para criar soluções tecnológicas que impactem positivamente a sociedade.
+Computer engineer in training with hands-on experience in IoT, embedded systems, and connecting devices, sensors, and cloud services. I learn by doing — building prototypes, drivers, and end-to-end integrations that bridge hardware and software in real environments.
 
-> *"Aprendo melhor quando começo projetos novos, mesmo sem saber tudo no começo. Cada desafio me ajuda a crescer e a encontrar soluções que façam sentido"*
+I work with ESP32/ESP8266, Raspberry Pi as an edge gateway, and communication protocols such as MQTT and WebSockets. I also have exposure to **OPC UA**, **Asset Administration Shell (AAS)**, **digital twin concepts**, and **RAMI 4.0**, mainly through integration tasks, data mapping, and experimentation in industrial and research projects.
+
+I also develop Android applications (Kotlin – MVVM) and cloud pipelines using AWS services such as **Lambda**, **S3**, **API Gateway**, and **Rekognition**, combining edge and cloud to process and deliver real-time insights.
+
+I enjoy projects involving automation, sensors, data flows, and prototyping. I learn by experimenting, testing, and understanding how each part of the architecture behaves. Each project helps me grow toward building more robust, scalable, and intelligent systems.
 
 ---
 
-## Tecnologias & Ferramentas
+## Tech Stack
 
-### Linguagens de Programação
+### Programming Languages
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Hardware & Sistemas Embarcados
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![IoT](https://img.shields.io/badge/Internet_of_Things-FF69B4?style=for-the-badge&logo=iot&logoColor=white)
+---
 
-### Cloud & Databases
+## IoT, Embedded & Industrial Integration
+
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![OPC UA](https://img.shields.io/badge/OPC_UA-004A8F?style=for-the-badge&logo=opc-foundation&logoColor=white)
+
+Experience with:
+
+- Sensor data acquisition and communication  
+- ESP32/ESP8266 programming  
+- Edge gateways using Raspberry Pi  
+- MQTT, TCP/IP, HTTP, WebSockets  
+- Industrial exposure: OPC UA, AAS, digital twin concepts, RAMI 4.0  
+- Drivers that convert raw sensor data into structured models  
+
+---
+
+## Cloud & Backend
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 
-### Ferramentas & Frameworks
+- AWS Lambda, S3, API Gateway, Rekognition  
+- Firebase Auth, Firestore, Realtime Database  
+- Data processing pipelines  
+- Hardware-to-cloud integration  
+
+---
+
+## Mobile Development
+
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+- Native Android (Kotlin – MVVM)  
+- REST API integration  
+- Clean and responsive UI/UX  
+- Real-time data visualization  
 
 ---
 
-## Projetos em Destaque
+## Featured Projects
 
-### Caíça - Identificação de Plantas Medicinais Indígenas
-**Fevereiro - Maio 2025 | Projeto de Extensão**
+### **Caíça – Indigenous Medicinal Plant Identification**
+*Feb–May 2025 | Research & Extension Project*
 
-Aplicativo Android que utiliza **inteligência artificial e visão computacional** para identificar plantas medicinais indígenas, com o objetivo de valorizar e preservar os conhecimentos tradicionais dos povos indígenas.
+Android application using **AI and computer vision** to identify Amazonian medicinal plants.
 
-- **Tecnologias:** Kotlin, AWS Lambda, Rekognition, S3, RDS
-- **Funcionalidades:** Captura de imagem, processamento IA, banco de dados de plantas
-- **Impacto:** Preservação e democratização do conhecimento ancestral
-
-**Funcionamento:**
-1. Usuário captura ou seleciona imagem da planta
-2. Imagem é enviada para AWS S3 para armazenamento seguro
-3. AWS Lambda utiliza Rekognition para comparar com banco de dados
-4. Aplicativo exibe informações completas: nome popular e científico, propriedades medicinais, usos terapêuticos
-
-### Sistema de Monitoramento de Consumo de Energia
-**Agosto - Novembro 2024 | 2º Lugar - Semana de Engenharia**
-
-Sistema IoT para monitoramento em tempo real do consumo energético de dispositivos elétricos, com foco em visualização de dados e cálculo automático de custos por aparelho.
-
-- **Tecnologias:** ESP8266 NodeMCU, Arduino, Firebase, Android
-- **Funcionalidades:** Gráficos interativos, cálculo de custos, interface mobile
-- **Reconhecimento:** 2º lugar na categoria Engenharias da Faculdade Matias Machline
-
-**Diferenciais:**
-- Captura de dados em tempo real via Wi-Fi
-- Armazenamento em Firestore (Firebase) 
-- Gráficos interativos para identificar picos de consumo
-- Cálculo automático de custos por dispositivo
-- Interface Android intuitiva para monitoramento dinâmico
-
-### Contador Simples - Aplicativo Android
-**Junho - Agosto 2024**
-
-Cronômetro desenvolvido no Android Studio com interface minimalista e funcional para contagem de tempo.
-
-- **Tecnologias:** Android Studio, Kotlin
-- **Funcionalidades:** Iniciar/parar contagem, exibição em horas/minutos/segundos
-- **Técnicas:** Classe Handler para atualizações em tempo real no TextView
+**Tech:** Kotlin, AWS Lambda, Rekognition, S3, RDS  
+**Features:** Image capture, cloud inference, botanical dataset  
+**Impact:** Supports cultural preservation and scientific accessibility  
 
 ---
 
-## Estatísticas GitHub
+### **Energy Consumption Monitoring System**
+*Aug–Nov 2024 | Awarded 2nd place at Engenharia Week*
+
+IoT system for real-time monitoring of electrical consumption using ESP8266 + Firebase + Android.
+
+**Tech:** ESP8266, Firebase, Android  
+**Highlights:** Real-time graphs, cost estimation, mobile dashboard  
+
+---
+
+### **Simple Timer App**
+Minimalist Android timer built using Kotlin and real-time UI updates.
+
+---
+
+## Research & Interests
+
+My interests are focused on connecting the physical and digital worlds through IoT, embedded systems, and early-stage cyber-physical integrations. I explore how devices, sensors, cloud services, and industrial standards can work together to build smarter and more reliable systems.
+
+Areas I’m currently studying and experimenting with:
+
+- **Cyber-Physical Systems (CPS)** applied to real environments  
+- **IoT architectures** combining microcontrollers, edge gateways, and cloud processing  
+- **Edge computing** with Raspberry Pi for data aggregation and local decision-making  
+- **Industrial interoperability**, including:  
+  - **OPC UA** for structured industrial communication  
+  - **Asset Administration Shell (AAS)** for digital representations of devices  
+  - **RAMI 4.0** concepts related to integration and data layers  
+- **Digital twin experimentation**, data mapping, and synchronization of device data  
+- **Embedded development** with ESP32/ESP8266  
+- **Cloud pipelines** using AWS (Lambda, API Gateway, S3, Rekognition)  
+- **Mobile applications** that integrate IoT or cloud processing  
+- **Prototyping & experimentation** as the primary method for learning complex architectures  
+
+I’m especially motivated by projects where hardware, software, and cloud services converge — environments that require creativity, testing, and practical problem-solving to make systems communicate effectively.
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
@@ -104,60 +142,14 @@ Cronômetro desenvolvido no Android Studio com interface minimalista e funcional
 
 ---
 
-## Competências Técnicas
+## Education
 
-### Desenvolvimento Mobile
-- **Android nativo** com Kotlin
-- **Integração com APIs** REST
-- **Firebase** para backend
-- **Interface responsiva** e UX/UI
-
-### Internet das Coisas (IoT)
-- **Microcontroladores** ESP8266/ESP32
-- **Comunicação wireless** Wi-Fi, TCP/IP
-- **Sensores** e atuadores
-- **Protocolos de comunicação**
-
-### Análise de Dados
-- **SQL Server** e consultas complexas
-- **Automação de relatórios**
-- **Python** para análise e visualização
-- **Integração hardware-software**
-
-### Cloud Computing
-- **AWS Lambda** e Rekognition
-- **S3** para armazenamento
-- **RDS** para bancos relacionais
-- **Firebase** para aplicações mobile
+**Bachelor in Computer Engineering**  
+*Faculdade Matias Machline – Manaus, AM*
 
 ---
 
-## Formação Acadêmica
+## Contact
 
-**Engenharia da Computação**  
-*Faculdade Matias Machline | Manaus, AM*
-
-
----
-```python
-def minha_abordagem():
-    while True:
-        projeto_novo = encontrar_desafio()
-        if not sei_tudo_sobre(projeto_novo):
-            começar_mesmo_assim()
-            aprender_fazendo()
-            crescer_com_desafio()
-        else:
-            continue
-    return "Crescimento constante através de novos desafios"
-```
-
----
-
-## Contato
-
-Sempre interessada em discutir **desenvolvimento mobile**, **IoT**, **automação** e **tecnologias emergentes**. Se você tem um projeto interessante ou quer trocar conhecimentos sobre desenvolvimento de software e sistemas embarcados, vamos conectar!
-
-<div align="center">
-
-</div>
+Interested in IoT, automation, embedded development, cloud integrations, and emerging technologies.  
+Feel free to reach out!
