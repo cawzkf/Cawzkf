@@ -18,9 +18,9 @@
 
 ## About Me
 
-Computer Engineering student researching **distributed cyber-physical systems (CPS)** — how physical assets, sensors, and cloud services integrate through industrial standards like **OPC UA**, **Asset Administration Shell (AAS)**, and **RAMI 4.0**. My work centers on architectures for physical–digital integration, **digital twins**, and local processing in infrastructure-constrained environments, validated through **vehicular simulation** and **intelligent aquaculture** case studies.
+Computer Engineering student researching **distributed cyber-physical systems (CPS)**, how physical assets, sensors, and cloud services integrate through industrial standards like **OPC UA**, **Asset Administration Shell (AAS)**, and **RAMI 4.0**. My work centers on architectures for physical–digital integration, **digital twins**, and local processing in infrastructure-constrained environments, validated through **vehicular simulation** and **intelligent aquaculture** case studies.
 
-I learn by engineering things end to end — prototypes, drivers, and integrations that connect hardware to software in real environments. I work with **ESP32/ESP8266** and **Raspberry Pi** edge gateways, communication protocols (**MQTT, WebSockets, TCP/IP**), and **AWS** pipelines (Lambda, S3, API Gateway, Rekognition), combining edge and cloud to deliver real-time insight. I also build native **Android** applications in **Kotlin (MVVM)**.
+I learn by engineering things end to end, prototypes, drivers, and integrations that connect hardware to software in real environments. I work with **ESP32/ESP8266** and **Raspberry Pi** edge gateways, communication protocols (**MQTT, WebSockets, TCP/IP**), and **AWS** pipelines (Lambda, S3, API Gateway, Rekognition), combining edge and cloud to deliver real-time insight. I also build native **Android** applications in **Kotlin (MVVM)**.
 
 ---
 
@@ -32,13 +32,13 @@ I learn by engineering things end to end — prototypes, drivers, and integratio
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ### Tools & Version Control
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-21D789?style=for-the-badge&logo=pycharm&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
