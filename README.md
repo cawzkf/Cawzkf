@@ -18,11 +18,9 @@
 
 ## About Me
 
-Computer engineer in training researching **distributed cyber-physical system (CPS) architectures**, with a focus on the semantic representation of industrial assets (**AAS / OPC UA**), computational modeling, and local processing in infrastructure-constrained environments. I investigate scalable architectures for physical–digital integration, evaluating architectural performance, interoperability, and AI-based decision support — using **vehicular simulation** and **intelligent aquaculture** systems as case studies for experimental validation.
+Computer Engineering student researching **distributed cyber-physical systems (CPS)** — how physical assets, sensors, and cloud services integrate through industrial standards like **OPC UA**, **Asset Administration Shell (AAS)**, and **RAMI 4.0**. My work centers on architectures for physical–digital integration, **digital twins**, and local processing in infrastructure-constrained environments, validated through **vehicular simulation** and **intelligent aquaculture** case studies.
 
-In practice, I learn by building: prototypes, drivers, and end-to-end integrations that bridge hardware and software in real environments. I work with ESP32/ESP8266, Raspberry Pi as an edge gateway, and communication protocols such as MQTT and WebSockets, alongside **digital twin concepts** and **RAMI 4.0** layering applied through data mapping, modeling, and experimentation.
-
-I also develop Android applications (Kotlin – MVVM) and cloud pipelines using AWS services such as **Lambda**, **S3**, **API Gateway**, and **Rekognition**, combining edge and cloud to process and deliver real-time insights.
+I learn by engineering things end to end — prototypes, drivers, and integrations that connect hardware to software in real environments. I work with **ESP32/ESP8266** and **Raspberry Pi** edge gateways, communication protocols (**MQTT, WebSockets, TCP/IP**), and **AWS** pipelines (Lambda, S3, API Gateway, Rekognition), combining edge and cloud to deliver real-time insight. I also build native **Android** applications in **Kotlin (MVVM)**.
 
 ---
 
