@@ -90,9 +90,9 @@ Experience with:
 ### **MachForce – Energy Digital Twin (Shell Eco-marathon)**
 *2026 – Present | Research project · MachForce team*
 
-Software foundation for the energy **digital twin** of the MachForce electric vehicle. The core is a **simplified longitudinal dynamic model** that estimates instantaneous power, accumulated energy, and battery State of Charge (SoC) — including regenerative braking — and publishes the energy state over **MQTT** for asynchronous consumption by the team's local backend. This model is already in use as the base of the car's software.
+Software foundation for the energy **digital twin** of the MachForce electric vehicle. The core is a **simplified longitudinal dynamic model** that estimates instantaneous power, accumulated energy, and battery State of Charge (SoC),— including regenerative braking and publishes the energy state over **MQTT** for asynchronous consumption by the team's local backend. This model is already in use as the base of the car's software.
 
-Since the physical vehicle isn't instrumented yet, the model is currently fed and validated using the **CARLA** simulator as a stand-in data source. The architecture keeps the physics domain fully decoupled from the data source, so CARLA will be swapped for the **real onboard telemetry / data acquisition** we're building — sensors for voltage, current, temperature, and speed over an RS485 bus — which will feed the digital twin of the actual car.
+Since the physical vehicle isn't instrumented yet, the model is currently fed and validated using the **CARLA** simulator as a stand-in data source. The architecture keeps the physics domain fully decoupled from the data source, so CARLA will be swapped for the **real onboard telemetry / data acquisition** we're building sensors for voltage, current, temperature, and speed over an RS485 bus which will feed the digital twin of the actual car.
 
 **Architecture:** RAMI 4.0 layering with separation of concerns (Integration → Functional → Information). AAS (Eclipse BaSyx) and OPC UA layers are mapped on the roadmap and deferred while the embedded hardware is prototyped.
 
