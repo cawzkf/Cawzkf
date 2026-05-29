@@ -38,7 +38,7 @@ I learn by engineering things end to end, prototypes, drivers, and integrations 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-21D789?style=for-the-badge&logo=pycharm&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-660066?style=for-the-badge&logo=pycharm&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -77,7 +77,7 @@ Experience with:
 
 ## Mobile Development
 
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-660066?style=for-the-badge&logo=android-studio&logoColor=white)
 
 - Native Android (Kotlin – MVVM)
 - REST API integration
@@ -90,7 +90,7 @@ Experience with:
 ### **MachForce – Energy Digital Twin (Shell Eco-marathon)**
 *2026 – Present | Research project · MachForce team*
 
-Software foundation for the energy **digital twin** of the MachForce electric vehicle. The core is a **simplified longitudinal dynamic model** that estimates instantaneous power, accumulated energy, and battery State of Charge (SoC),— including regenerative braking and publishes the energy state over **MQTT** for asynchronous consumption by the team's local backend. This model is already in use as the base of the car's software.
+Software foundation for the energy **digital twin** of the MachForce electric vehicle. The core is a **simplified longitudinal dynamic model** that estimates instantaneous power, accumulated energy, and battery State of Charge (SoC), including regenerative braking and publishes the energy state over **MQTT** for asynchronous consumption by the team's local backend. This model is already in use as the base of the car's software.
 
 Since the physical vehicle isn't instrumented yet, the model is currently fed and validated using the **CARLA** simulator as a stand-in data source. The architecture keeps the physics domain fully decoupled from the data source, so CARLA will be swapped for the **real onboard telemetry / data acquisition** we're building sensors for voltage, current, temperature, and speed over an RS485 bus which will feed the digital twin of the actual car.
 
