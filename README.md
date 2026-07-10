@@ -52,6 +52,18 @@ I learn by engineering things end to end, prototypes, drivers, and integrations 
 ![OPC UA](https://img.shields.io/badge/OPC_UA-004A8F?style=for-the-badge&logo=opc-foundation&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
 
+### Backend, Data & DevOps
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=for-the-badge&logo=timescale&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+
+--- 
+
 Experience with:
 
 - Distributed cyber-physical architectures and physical–digital integration
@@ -90,14 +102,12 @@ Experience with:
 ### **MachForce – Energy Digital Twin (Shell Eco-marathon)**
 *2026 – Present | Research project · MachForce team*
 
-Real-time energy **digital twin** of the MachForce electric prototype, built on a **simplified longitudinal dynamic model** that estimates instantaneous power, accumulated energy, and battery State of Charge (SoC), including regenerative braking. The physics domain is fully decoupled from infrastructure through a **plugable telemetry source** and a ports-and-adapters design, so the data source can be swapped without touching the model. This model is already in use as the base of the car's software.
+Real-time energy **digital twin** of the MachForce electric prototype, based on a **simplified longitudinal dynamic model** that estimates instantaneous power, accumulated energy and battery State of Charge (SoC), including regenerative braking. A ports-and-adapters design keeps the physics domain fully decoupled from infrastructure, so the data source is pluggable, CARLA stands in for the not-yet-instrumented vehicle today and will be swapped for **real onboard sensors over RS485** with no change to the rest of the system.
 
-CARLA currently stands in for the not-yet-instrumented vehicle, feeding the twin over an **asynchronous MQTT bus**; a future **RS485 → MQTT** bridge will feed the same bus from real onboard sensors (voltage, current, temperature, speed) without any change to the rest of the system.
+Built along the **RAMI 4.0** layering over an asynchronous **MQTT** bus: temporal persistence (**TimescaleDB**), a formal **Asset Administration Shell** (Eclipse BaSyx, IDTA submodels) synced in real time, and an **OPC UA** server for industrial integration — covering the Integration, Functional, Information and Communication layers.
 
-**Architecture:** RAMI 4.0 layering (Asset → Integration → Communication → Information → Functional) over an MQTT bus that decouples acquisition, processing and exposure. **Information layer** — temporal persistence in TimescaleDB (per session) and an **Asset Administration Shell** (Eclipse BaSyx, IDTA submodels: TimeSeries 02008, EnergyEfficiency, TechnicalData 02003) synced in real time via REST. **Communication layer** — an **OPC UA server** (asyncua) whose address space mirrors the AAS V3 hierarchy (UAExpert-inspectable), a **FastAPI REST + WebSocket** API, and a **LoRa** link to the pit. A **React + Vite dashboard** shows live KPIs, real-time charts, the driven track and operational alerts, with runtime editing of parameters and alert thresholds. Fully environment-configurable (no hardcoding); one-command Docker Compose deploy.
-
-**Tech:** Python, MQTT (Mosquitto), TimescaleDB/PostgreSQL, Eclipse BaSyx (AAS), OPC UA (asyncua), FastAPI, React + Vite, LoRa, Docker Compose, pytest, structlog, CARLA (current data source); embedded telemetry hardware (RS485) in development
-**Highlights:** RAMI 4.0 with ports & adapters; 89 unit tests (AAA); code verification against the analytical model with 0.0000% residual (implementation correctness, not experimental validation); offline synthetic simulation + end-to-end smoke test; real-time strategic indicators (specific consumption, estimated range, moving-average power); raw→processed latency ≈5.7 ms (well under the 100 ms step)
+**Tech:** Python, MQTT (Mosquitto), TimescaleDB/PostgreSQL, Eclipse BaSyx (AAS), OPC UA (asyncua), FastAPI, LoRa, Docker Compose, pytest, structlog, CARLA
+**Highlights:** 89 unit tests; code verification against the analytical model (0.0000% residual — implementation correctness, not experimental validation); real-time strategic indicators (specific consumption, estimated range, moving-average power); pluggable telemetry source (CARLA → real RS485 sensors)
 
 ---
 
